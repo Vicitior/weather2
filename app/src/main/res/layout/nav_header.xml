@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="10dp"
+    android:background="#44BB8C">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/header"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/imageView"
+        android:text="什么都不会的小菜鸡"
+        android:textSize="14sp"
+        android:textColor="#FFF"/>
+</RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="564dp"
+        android:layout_marginBottom="98dp"
+        android:src="@drawable/back" />
+
+</LinearLayout>
